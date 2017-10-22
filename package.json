@@ -1,0 +1,28 @@
+{
+  "name": "galvanize-secrets-fs",
+  "version": "1.0.0",
+  "description": "Galvanize-Secrets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geebrown43/galvanize-secrets-fs.git"
+  },
+  "author": "Gavin Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geebrown43/galvanize-secrets-fs/issues"
+  },
+  "homepage": "https://github.com/geebrown43/galvanize-secrets-fs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "knex": "^0.13.0",
+    "pg": "^7.3.0"
+  }
+}
